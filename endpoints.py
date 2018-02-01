@@ -1,5 +1,6 @@
 from flask import Flask, jsonify, request
 from bot import ChatBot
+from chatterbot.utils import nltk_download_corpus
 
 import uuid
 
@@ -19,8 +20,10 @@ def answer():
     response = {}
     response['question'] = question
     response['conversation_id'] = conversation_id
-    response['answer'] = answer.serialize()
+    response['answer'] = answer.text
 
     return jsonify(response)
 
+
+nltk_download_corpus('corpora/stopwords')
 app.run()
