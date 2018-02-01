@@ -1,12 +1,12 @@
 # chat-bot-99-hackaton
 
-### Installing:
+## Installing:
 ```
 brew install python3
 pip3 install chatterbot
 ```
 
-Running:
+## Running:
 ```
 python3 bot.py 
 ```
