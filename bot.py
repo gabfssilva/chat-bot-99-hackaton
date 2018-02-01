@@ -14,7 +14,8 @@ class ChatBot:
 		    "./lost_items.yml",
 			"./rate_driver.yml",
 			"./wrong_estimative.yml",
-			"./ride_finished_after.yml"
+			"./ride_finished_after.yml",
+			"./wrong_path.yml"
 		)
 
 	def answer(self, conversation_id, question):
