@@ -4,6 +4,7 @@
 ```
 brew install python3
 pip3 install chatterbot
+pip3 install flask
 ```
 
 ## Running:
