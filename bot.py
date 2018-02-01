@@ -13,7 +13,8 @@ class ChatBot:
 		    "./cupom.yml",
 		    "./lost_items.yml",
 			"./rate_driver.yml",
-			"./wrong_estimative.yml"
+			"./wrong_estimative.yml",
+			"./ride_finished_after.yml"
 		)
 
 	def answer(self, conversation_id, question):
