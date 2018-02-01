@@ -11,7 +11,9 @@ class ChatBot:
 		self.chatbot.train(
 		    "./questions.yml",
 		    "./cupom.yml",
-		    "./lost_items.yml"
+		    "./lost_items.yml",
+			"./rate_driver.yml",
+			"./wrong_estimative.yml"
 		)
 
 	def answer(self, conversation_id, question):
