@@ -19,7 +19,7 @@ def answer():
     response = {}
     response['question'] = question
     response['conversation_id'] = conversation_id
-    response['answer'] = answer.text
+    response['answer'] = answer.serialize()
 
     return jsonify(response)
 
