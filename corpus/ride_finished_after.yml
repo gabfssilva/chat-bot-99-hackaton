@@ -154,6 +154,13 @@ conversations:
 - - Você é inconveniente
   - <div style="width:100%;height:0;padding-bottom:86%;position:relative;"><iframe src="https://giphy.com/embed/eeptJ1Ropx4M8" width="70%" height="70%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>    
 - - Preciso de um foguete
-  - Só temos carros. Você pode pedir um carro no aplicativo da 99.
+  - Tá com pressa? Bem, infelizmente a gente só tem carros por enquanto, mas, não se preocupe que eles chegam rapidinho.
+- - Quero de um foguete
+  - Tá com pressa? Bem, infelizmente a gente só tem carros por enquanto, mas, não se preocupe que eles chegam rapidinho.
 - - Preciso corrigir uma campanha
   - Ok, você poderia preencher o formulario para que possamos te identificar e analisar sua campanha? @action:display_form_nocampaign  
+- - Não recebi campanha
+  - Ok, você poderia preencher o formulario para que possamos te identificar e analisar sua campanha? @action:display_form_nocampaign 
+- - Dinheiro campanha não caiu
+  - Ok, você poderia preencher o formulario para que possamos te identificar e analisar sua campanha? @action:display_form_nocampaign  
+ 
