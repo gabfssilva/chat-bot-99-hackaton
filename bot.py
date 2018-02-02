@@ -7,12 +7,19 @@ class Link:
         self.href = href
 
     def render(self):
-        return '<a href="' + self.href + '">' + self.text +'<a/>'    
+        return '<a class="follow_link" href="' + self.href + '">' + self.text +'<a/>'    
+
+class Image:
+    def __init__(self, token, href):
+       self.token = token
+       self.href = href
+
+    def render(self):
+        return '<img src="' + self.href + '"/>'    
 
 class ChatBot:
 	def __init__(self):
-        
-
+    
 		self.chatbot = chatterbot.ChatBot(
 		    'Ron Obvious',
 		    trainer='chatterbot.trainers.ChatterBotCorpusTrainer'
