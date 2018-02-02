@@ -48,6 +48,11 @@ forms = {
         FormInputText('name', 'Nome:', 'Coloque seu nome aqui'),
         FormInputText('email', 'E-mail:', 'Qual seu e-mail'),
         FormInputText('cidade', 'Cidade:', 'Qual sua cidade?')
+    ]),
+   'form:harassment': Form('harassment', [
+        FormInputText('name', 'Nome:', 'Coloque seu nome aqui'),
+        FormInputText('email', 'E-mail:', 'Qual seu e-mail'),
+        FormInputText('ocorrido', 'Ocorrido:', 'Qual foi a ocorrencia?')
     ]) 
 }
 
@@ -55,7 +60,8 @@ def display_form(form_name):
     return forms[form_name].render()
 
 actions = {
-    'action:display_form_nocampaign': display_form('form:nocampaign')
+    'action:display_form_nocampaign': display_form('form:nocampaign'),
+    'action:display_form_harassment': display_form('form:harassment')
 }
 
 actionExecutor = ActionExecutor(actions)
