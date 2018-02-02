@@ -35,7 +35,7 @@ class ChatBot:
             ]
 		)
 
-		self.chatbot.train("chatterbot.corpus.portuguese")
+		self.chatbot.train("chatterbot.corpus.portuguese.conversations")
 		self.chatbot.train("./corpus")
 
 	def answer(self, conversation_id, question):
