@@ -36,4 +36,4 @@ class TokenReplacer:
         for item in ocurrences:
             if item in self.entries:
                 text = text.replace('@' + item , self.entries[item].render())
-        return text    
+        return text
