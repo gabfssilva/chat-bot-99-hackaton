@@ -3,6 +3,8 @@ from flask_cors import CORS
 from bot import ChatBot
 from chatterbot.utils import nltk_download_corpus
 
+from token_replacer import TokenReplacer, Image, Link
+
 
 from token_replacer import Link
 
