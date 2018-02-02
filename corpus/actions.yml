@@ -1,0 +1,10 @@
+categories:
+- portuguese
+- actions
+conversations:
+- - Não recebi a campanha.
+  - Então, nesse caso você precisa me informar seu e-mail e informar o período da campanha pra eu poder dar uma olhadinha pra você. @action:display_form_nocampaign
+- - Não recebi minha campanha.
+  - Então, nesse caso você precisa me informar seu e-mail e informar o período da campanha pra eu poder dar uma olhadinha pra você. @action:display_form_nocampaign
+- - Não recebi a campanha.
+  - Então, nesse caso você precisa me informar seu e-mail e informar o período da campanha pra eu poder dar uma olhadinha pra você. @action:display_form_nocampaign

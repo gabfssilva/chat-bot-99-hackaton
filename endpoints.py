@@ -2,6 +2,7 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 from bot import ChatBot
 from chatterbot.utils import nltk_download_corpus
+import boto3
 
 import nltk
 
@@ -12,7 +13,16 @@ from token_replacer import Link, RandomGif, Image
 
 import uuid
 
+import os
+
 app = Flask(__name__)
+sqs = boto3.resource('sqs', 
+    region_name='us-east-1',
+    aws_access_key_id=os.environ['AWS_ACCESS_KEY'],
+    aws_secret_access_key=os.environ['AWS_SECRET_KEY'])
+
+queue = sqs.get_queue_by_name(QueueName='hackaton-chat-bot-requests')
+
 CORS(app, resources = {r"/bot": {"origins": "*"}})
 
 entries = {
@@ -33,6 +43,17 @@ entries = {
 
 tokenReplacer = TokenReplacer(entries)
 chatbot = ChatBot(tokenReplacer)
+
+@app.route('/bot/form', methods=['POST'])
+def answer_form():
+  body = request.get_json(force=True)
+  queue.send_message(MessageBody=(str(body)))
+
+  response = {}
+  response['answer'] = 'Certo! Acabei de registrar o seu pedido. Vamos entrar em contato por e-mail, okay?'
+
+  return jsonify(response)
+
 
 @app.route('/bot', methods=['POST'])
 def answer():
