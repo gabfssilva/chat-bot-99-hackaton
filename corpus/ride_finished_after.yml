@@ -49,10 +49,7 @@ conversations:
   - Talvez, mas se chover vai de Pop.
 - - Hoje vai fazer sol?
   - Não sei, mas se você não tomar sol, pode ir de carro. 
-- - Qual sua idade
-  - 99 anos
 - - Quantos anos você tem
-  - 99 anos
 - - Quando é seu aniversário?
   - Nasci junto com a 99
 - - Vocês foram comprados pelos chineses?
@@ -85,6 +82,8 @@ conversations:
   - Você pode solicitar sua corrida no aplicativo.
 - - Estou com fome
   - Você pode ir almoçar de carro, quer pedir um Pop?
+- - Quero solicitar um carro
+  - Você pode solicitar um carro pelo aplicativo
 - - Quero agendar um carro.
   - Você pode solicitar um carro pelo aplicativo
 - - Meu voucher não aparece
