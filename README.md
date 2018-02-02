@@ -5,6 +5,7 @@
 brew install python3
 pip3 install chatterbot
 pip3 install flask
+pip3 install flask_cors
 ```
 
 ## Running:

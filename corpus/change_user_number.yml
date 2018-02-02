@@ -1,0 +1,38 @@
+categories:
+- portuguese
+- charge_driver_number
+- driver
+conversations:
+- - trocar numero celular 
+  - Então, se você for um passageiro, acesse @link:change_pax_number, se for motorista, só acessar o @link:change_driver_number e seguir os passos informados. ;)
+- - trocar numero telefone 
+  - Então, se você for um passageiro, acesse @link:change_pax_number, se for motorista, só acessar o @link:change_driver_number e seguir os passos informados. ;)
+- - mudar numero celular 
+  - Então, se você for um passageiro, acesse @link:change_pax_number, se for motorista, só acessar o @link:change_driver_number e seguir os passos informados. ;)
+- - mudar numero telefone 
+  - Então, se você for um passageiro, acesse @link:change_pax_number, se for motorista, só acessar o @link:change_driver_number e seguir os passos informados. ;)
+- - como posso trocar numero celular 
+  - Então, se você for um passageiro, acesse @link:change_pax_number, se for motorista, só acessar o @link:change_driver_number e seguir os passos informados. ;)
+- - como posso trocar numero telefone 
+  - Então, se você for um passageiro, acesse @link:change_pax_number, se for motorista, só acessar o @link:change_driver_number e seguir os passos informados. ;)
+- - como posso mudar numero celular 
+  - Então, se você for um passageiro, acesse @link:change_pax_number, se for motorista, só acessar o @link:change_driver_number e seguir os passos informados. ;)
+- - como posso mudar numero telefone 
+  - Então, se você for um passageiro, acesse @link:change_pax_number, se for motorista, só acessar o @link:change_driver_number e seguir os passos informados. ;)
+- - motorista trocar numero celular 
+  - Ah, é simples! Só seguir o que @link:change_driver_number diz e pronto!
+- - motorista trocar numero telefone 
+  - Ah, é simples! Só seguir o que @link:change_driver_number diz e pronto!
+- - motorista mudar numero celular 
+  - Ah, é simples! Só seguir o que @link:change_driver_number diz e pronto!
+- - motorista mudar numero telefone 
+  - Ah, é simples! Só seguir o que @link:change_driver_number diz e pronto!
+- - passageiro trocar numero celular 
+  - Ah, essa é bem fácil. É só acessar @link:change_pax_number e seguir os passos.
+- - passageiro trocar numero telefone 
+  - Ah, essa é bem fácil. É só acessar @link:change_pax_number e seguir os passos.
+- - passageiro mudar numero celular 
+  - Ah, essa é bem fácil. É só acessar @link:change_pax_number e seguir os passos.
+- - passageiro mudar numero telefone 
+  - Ah, essa é bem fácil. É só acessar @link:change_pax_number e seguir os passos.
+

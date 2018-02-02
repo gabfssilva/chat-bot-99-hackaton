@@ -14,18 +14,18 @@ class ChatBot:
               },
               {
                 'import_path': 'chatterbot.logic.LowConfidenceAdapter',
-                'threshold': 0.60,
+                'threshold': 0.50,
                 'default_response': 'Eu não entendi. Bem, eu sou um robozinho meio lerdo e preciso que você explique de uma forma detalhada com palavras chaves para que eu entenda melhor. Pode refazer a sua pergunta?'
               }
             ]
         )
 
-        self.chatbot.train("chatterbot.corpus.portuguese")
+        self.chatbot.train("chatterbot.corpus.portuguese.conversations")
+        self.chatbot.train("chatterbot.corpus.portuguese.greetings")
         self.chatbot.train("./corpus")
 
     def answer(self, conversation_id, question):
         response = self.chatbot.get_response(question)
         response = self.tokenReplacer.replace(response.text)
         return response
-
 

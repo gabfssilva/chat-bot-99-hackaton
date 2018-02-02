@@ -11,15 +11,15 @@ conversations:
 - - Quanto custa uma corrida
   - Depende para onde você vai.
 - - Quero pedir um carro
-  - Você pode pedir corridas atravês do aplicativo da 99.
+  - Você pode pedir corridas atravês do aplicativo da 99 na @link:play_store_99 ou na @link:apple_store_99.
 - - Quero um taxi
-  - Ok. Você pode pedir corridas atravês do aplicativo da 99.
+  - Ok. Você pode pedir corridas atravês do aplicativo da 99 na @link:play_store_99 ou na @link:apple_store_99.
 - - Preciso de um carro 
-  - Já vamos conseguir um para você. Você pode pedir corridas atravês do aplicativo da 99.
+  - Já vamos conseguir um para você. Você pode pedir corridas atravês do aplicativo da 99 na @link:play_store_99 ou na @link:apple_store_99.
 - - Chame um motorista
-  - Eu não. Você pode pedir corridas atravês do aplicativo da 99.
+  - Eu não. Você pode pedir corridas atravês do aplicativo da 99 na @link:play_store_99 ou na @link:apple_store_99.
 - - Quero um motorista
-  - Você mesmo pode chamar através do aplicativo da 99.
+  - Você mesmo pode chamar através do aplicativo da 99 na @link:play_store_99 ou na @link:apple_store_99.
 - - Quero um bicicleta
   - Por que ir de bicicleta se você pode ir de Pop?    
 - - Quero uma passagem de avião
@@ -29,7 +29,7 @@ conversations:
 - - Me da dinheiro
   - Humm... Você pode ganhar dinheiro sendo motorista Pop, o que acha?
 - - Não gosto de dirigir
-  - Você pode ser passageiro e chamar um carro no aplicativo da 99
+  - Você pode ser passageiro e chamar um carro no aplicativo da 99 na @link:play_store_99 ou na @link:apple_store_99.
 - - Não tenho dinheiro 
   - Você pode ganhar dinheiro sendo motorista Pop.
 - - Que horas são?
@@ -87,5 +87,61 @@ conversations:
   - Você pode ir almoçar de carro, quer pedir um Pop?
 - - Quero agendar um carro.
   - Você pode solicitar um carro pelo aplicativo
-
-
+- - Meu voucher não aparece
+  - Certifique-se que você está habilitado para a categoria que está selecionada. Você pode entrar em contato com a 99 por @link:contato_motorista.
+- - Xau
+  - Não tem mais nenhuma dúvida?  
+- - Tchau  
+  - Não tem mais nenhuma dúvida?  
+- - Quero ser motorista
+  - Você pode fazer o download do aplicativo de motorista na @link:play_store_driver_99
+- - Como faço para ser um motorista
+  - Você pode fazer o download do aplicativo de motorista na @link:play_store_driver_99
+- - Quero dirigir
+  - Você pode fazer o download do aplicativo de motorista na @link:play_store_driver_99
+- - Como faço para dirigir
+  - Você pode fazer o download do aplicativo de motorista na @link:play_store_driver_99
+- - Qual o endereço da 99
+  - Av. dos Bandeirantes, 460 - Brooklin Paulista, São Paulo, SP, 04553-900
+- - Qual o telefone da 99
+  - Ligue para 0800 888 8999 a qualquer dia e hora.
+- - Qual o telefone do atendente  
+  - Ligue para 0800 888 8999 a qualquer dia e hora.
+- - Qual o telefone do atendimento    
+  - Ligue para 0800 888 8999 a qualquer dia e hora.
+- - Qual o telefone do vocês    
+  - Ligue para 0800 888 8999 a qualquer dia e hora.  
+- - Central de atendimento    
+  - Ligue para 0800 888 8999 a qualquer dia e hora.  
+- - Quais os meios de pagamento
+  - Você pode pagar com cartão de crédito pelo aplicativo, usar voucher corporativo ou dinheiro direto com o motorista.
+- - Não consigo fazer reset da minha senha
+  - Ligue para 0800 888 8999 a qualquer dia e hora e vamos ajuda a resetar sua senha.
+- - Esqueci minha senha
+  - Ligue para 0800 888 8999 a qualquer dia e hora e vamos ajuda a resetar sua senha.
+- - Como instalar a nova versão do App?
+  - Você pode baixar o novo aplicativo da 99 na @link:play_store_99 ou na @link:apple_store_99.
+- - Aceita cartão de débito?
+  - Por enquanto o novo aplicativo da 99 ainda não aceita cartão de débito, mas fique ligado.
+- - FAQ
+  - Você pode acessar o @link:faq para tirar suas dúvidas
+- - Qual o endereço do FAQ 
+  - Você pode acessar o @link:faq para tirar suas dúvidas
+- - Qual o site da 99
+  - O site da 99 é @link:99
+- - Quero meu dinheiro de volta
+  - O que aconteceu? Você pode nos ligar? Nosso número é 0800 888 8999 
+- - Como troco de categoria
+  - Ainda não sei como você pode trocar de categoria, você pode nos ligar no número 0800 888 8999
+- - Fui roubado 
+  - Como assim? Pode nos contar como foi?
+- - Novo aplicativo
+  - Você pode baixar o novo aplicativo da 99 na @link:play_store_99 ou na @link:apple_store_99.
+- - Como falo com vocês
+  - Você pode falar com a gente através da nossa página @link:fale_conosco.
+- - Não fiz uma corrida
+  - Pode ter havido algum problema ao processarmos suas corridas. Pode entrar em contato conosco @link:contato
+- - Quem criou a 99?
+  - A 99 foi fundada em 2012 por Ariel Lambrecht, Renato Freitas e Paulo Vera.
+- - Quero trocar de carro
+  - Você é motorista e está tentando trocar de carro? No novo aplicativo da 99 você consegue adicionar novos carros para serem utilizados.
