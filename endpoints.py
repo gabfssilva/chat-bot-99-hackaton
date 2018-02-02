@@ -38,4 +38,4 @@ def answer():
 
 
 nltk_download_corpus('corpora/stopwords')
-app.run()   
+app.run(host="0.0.0.0")   
