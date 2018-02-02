@@ -15,7 +15,7 @@ class ChatBot:
               {
                 'import_path': 'chatterbot.logic.LowConfidenceAdapter',
                 'threshold': 0.50,
-                'default_response': 'Eu não entendi. Bem, eu sou um robozinho meio lerdo e preciso que você explique de uma forma detalhada com palavras chaves para que eu entenda melhor. Pode refazer a sua pergunta?'
+                'default_response': 'Eu não entendi. Pode refazer a sua pergunta? @randomgif:questions'
               }
             ]
         )

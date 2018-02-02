@@ -8,7 +8,7 @@ import nltk
 from token_replacer import TokenReplacer, Image, Link
 
 
-from token_replacer import Link
+from token_replacer import Link, RandomGif, Image
 
 import uuid
 
@@ -25,7 +25,10 @@ entries = {
     'link:fale_conosco': Link('fale_conosco', 'Fale Conosco', 'https://99app.com/fale-conosco/'),
     'link:99': Link('99', 'https://99app.com/', 'https://99app.com/'),
     'link:faq': Link('faq', 'FAQ', 'https://99taxis.zendesk.com/hc/pt-br'),
-    'img:go99': Image('go99', 'https://big.assets.huffingtonpost.com/ngWipN.gif')
+    'img:go99': Image('go99', 'https://big.assets.huffingtonpost.com/ngWipN.gif'),
+    'randomgif:questions': RandomGif('questions', [
+        'https://giphy.com/embed/cMVgEhDeKzPwI'
+    ])
 }
 
 tokenReplacer = TokenReplacer(entries)
