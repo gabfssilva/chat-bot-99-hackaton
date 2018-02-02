@@ -1,8 +1,9 @@
 import chatterbot 
 
 class ChatBot:
-    def __init__(self, tokenReplacer):
+    def __init__(self, tokenReplacer, actionExecutor):
         self.tokenReplacer = tokenReplacer
+        self.actionExecutor = actionExecutor
 
         self.chatbot = chatterbot.ChatBot(
             'Ron Obvious',
@@ -27,5 +28,6 @@ class ChatBot:
     def answer(self, conversation_id, question):
         response = self.chatbot.get_response(question)
         response = self.tokenReplacer.replace(response.text)
+        response = self.actionExecutor.replace(response)
         return response
 

@@ -7,9 +7,11 @@ import boto3
 import nltk
 
 from token_replacer import TokenReplacer, Image, Link
-
-
 from token_replacer import Link, RandomGif, Image
+
+from action_executor import ActionExecutor
+
+from action_executor import Form, FormInputText
 
 import uuid
 
@@ -41,8 +43,25 @@ entries = {
     ])
 }
 
+forms = {
+   'form:nocampaign': Form('nocampaign', [
+        FormInputText('name', 'Nome:', 'Coloque seu nome aqui'),
+        FormInputText('email', 'E-mail:', 'Qual seu e-mail'),
+        FormInputText('cidade', 'Cidade:', 'Qual sua cidade?')
+    ]) 
+}
+
+def display_form(form_name):
+    return forms[form_name].render()
+
+actions = {
+    'action:display_form_nocampaign': display_form('form:nocampaign')
+}
+
+actionExecutor = ActionExecutor(actions)
 tokenReplacer = TokenReplacer(entries)
-chatbot = ChatBot(tokenReplacer)
+
+chatbot = ChatBot(tokenReplacer, actionExecutor)
 
 @app.route('/bot/form', methods=['POST'])
 def answer_form():
