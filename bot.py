@@ -14,7 +14,7 @@ class ChatBot:
               },
               {
                 'import_path': 'chatterbot.logic.LowConfidenceAdapter',
-                'threshold': 0.50,
+                'threshold': 0.65,
                 'default_response': 'Eu não entendi. Pode refazer a sua pergunta? @randomgif:questions'
               }
             ]
