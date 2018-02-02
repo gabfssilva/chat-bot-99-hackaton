@@ -30,6 +30,7 @@ CORS(app, resources = {r"/bot": {"origins": "*"}})
 entries = {
     'link:achados_e_perdidos': Link('achados_e_perdidos', 'aqui', 'https://99taxis.zendesk.com/hc/pt-br/requests/new?ticket_form_id=322427'),
     'link:contato': Link('contato', 'aqui', 'https://99taxis.zendesk.com/hc/pt-br/requests/new?ticket_form_id=322427'),
+    'link:new_ticket': Link('contato', 'aqui', 'https://99taxis.zendesk.com/hc/pt-br/requests/new?ticket_form_id=322427'),
     'link:contato_motorista': Link('contato_motorista', 'aqui', 'https://99taxis.zendesk.com/hc/pt-br/requests/new?ticket_form_id=322427'),
     'link:play_store_99': Link('play_store_99', 'Play Store', 'https://play.google.com/store/apps/details?id=com.taxis99&hl=pt'),
     'link:play_store_driver_99': Link('play_store_driver_99', 'Play Store', 'https://play.google.com/store/apps/details?id=com.nineninetaxis.driver&hl=pt'),

@@ -8,7 +8,7 @@ class Link:
         self.href = href
 
     def render(self):
-        return '<a class="follow_link" href="' + self.href + '">' + self.text +'</a>'    
+        return '<a class="follow_link" target="_blank" href="' + self.href + '">' + self.text +'</a>'    
 
 class Image:
     def __init__(self, token, href):
