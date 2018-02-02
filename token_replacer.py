@@ -7,7 +7,7 @@ class Link:
         self.href = href
 
     def render(self):
-        return '<a class="follow_link" href="' + self.href + '">' + self.text +'<a/>'    
+        return '<a class="follow_link" href="' + self.href + '">' + self.text +'</a>'    
 
 class Image:
     def __init__(self, token, href):
@@ -24,5 +24,6 @@ class TokenReplacer:
     def replace(self, text):
         ocurrences = re.findall(r'@([\w:_]+)', text)
         for item in ocurrences:
-            text = text.replace('@' + item , self.entries[item].render())
+            if item in self.entries:
+                text = text.replace('@' + item , self.entries[item].render())
         return text    

@@ -17,6 +17,7 @@ CORS(app, resources = {r"/bot": {"origins": "*"}})
 
 entries = {
     'link:achados_e_perdidos': Link('achados_e_perdidos', 'Aqui', 'https://99taxis.zendesk.com/hc/pt-br/requests/new?ticket_form_id=322427'),
+    'link:contato_motorista': Link('contato_motorista', 'Aqui', 'https://99taxis.zendesk.com/hc/pt-br/requests/new?ticket_form_id=322427'),
     'img:go99': Image('go99', 'https://big.assets.huffingtonpost.com/ngWipN.gif')
 }
 
