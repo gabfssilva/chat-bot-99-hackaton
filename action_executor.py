@@ -6,13 +6,13 @@ class Form:
         self.fields = fields
 
     def render(self):
-        form = '<form id="' + self.token + '">'
+        form = '<form id="' + self.token + '" class="' + self.token + '">'
         form += '<dl>'
         for item in self.fields:
             form += '<dt>' + item.renderLabel() + '</dt>'
             form += '<dd>' + item.renderInput() + '</dd>'
         form += '</dl>'
-        form += '<div>' + FormButton('send', 'Enviar').render() + '</div>'
+        form += '<div>' + FormButton(self.token, 'Enviar').render() + '</div>'
         form += '</form>'
         return form
             
@@ -34,7 +34,7 @@ class FormButton:
         self.text = text
 
     def render(self):
-        return '<button class="button button-outline" id="actionButton"">' + self.text + '</button>' 
+        return '<button class="button button-outline" id="actionButton" data-form-name="'+ self.token + '" onclick="sendHistoryFormData();">' + self.text + '</button>' 
 
 class ActionExecutor:
     def __init__(self, actions):
